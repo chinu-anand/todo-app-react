@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #17181F;
+    color: #aaa;
+}
+
+main{
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+form{
+    border: 3px solid #30313D;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+}
+
+form input[type="text"]{
+    background: none;
+    border: 0;
+    color: white;
+    padding: 0 8px;
+    display: block;
+    width: 100%;
+}
+
+form button{
+    background-color: #61DAFB;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.task{
+    background-color: #30313D;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+}
